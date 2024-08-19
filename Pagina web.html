@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariposas del Mundo</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4caf9e;
+    color: rgb(1, 15, 44);
+    padding: 20px;
+    text-align: center;
+}
+
+#intro {
+    padding: 20px;
+    text-align: center;
+}
+
+#life-cycle, #types, #gallery, #facts {
+    padding: 20px;
+    text-align: center;
+}
+
+.life-cycle-stage, .type-item, .gallery-item {
+    margin: 20px;
+    text-align: center;
+}
+
+.life-cycle-stage img, .type-item img, .gallery-item img {
+    max-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #7eb9e0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #832e83;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mariposas del Mundo</h1>
+    </header>
+
+    <section id="intro">
+        <p>Las mariposas son insectos fascinantes y bellos que pertenecen al orden de los lepidópteros. Existen miles de especies diferentes en todo el mundo, cada una con características únicas.</p>
+    </section>
+
+    <section id="life-cycle">
+        <h2>Tipos de mariposas </h2>
+        <p>El ciclo de vida de una mariposa incluye cuatro etapas: huevo, larva (oruga), crisálida y adulto (mariposa).</p>
+        <div class="life-cycle-stage">
+            <img src="Mariposa 1.jpg">
+            <p><strong>Mariposa crisálida:</strong> Las mariposas comienzan su vida como un pequeño huevo, a menudo colocado en la hoja de una planta.</p>
+        </div>
+        <div class="life-cycle-stage">
+            <img src="Mariposa 2.jpg">
+            <p><strong>Mariposa Monarca:</strong> Después de eclosionar, la oruga (larva) comienza a alimentarse y crecer rápidamente.</p>
+        </div>
+        <div class="life-cycle-stage">
+            <img src="Mariposa 3.jpg">
+            <p><strong>Monarca crisálida:</strong> La oruga se convierte en crisálida, donde ocurre la metamorfosis.</p>
+        </div>
+        <div class="life-cycle-stage">
+            <img src="Mariposa 4.jpg">
+            <p><strong>Mariposa morpho violeta :</strong> Finalmente, emerge la mariposa adulta, lista para volar y continuar el ciclo.</p>
+        </div>
+    </section>
+
+    <section id="types">
+        <h2>Tipos de Mariposas</h2>
+        <div class="type-item">
+            <img src="Mariposa 2.jpg" alt="Mariposa Monarca">
+            <p><strong>Mariposa Monarca:</strong> Conocida por su impresionante migración de miles de kilómetros.</p>
+        </div>
+        <div class="type-item">
+            <img src="morpho azul.jpg" alt="Mariposa Morfo Azul">
+            <p><strong>Mariposa Morfo Azul:</strong> Famosa por sus brillantes alas azules.</p>
+        </div>
+        <div class="type-item">
+            <img src="Almirante rojo.jpg" alt="Mariposa Almirante Rojo">
+            <p><strong>Mariposa Almirante Rojo:</strong> Común en Europa, con distintivas marcas rojas y negras.</p>
+        </div>
+       
+    </section>
+
+    <section id="gallery">
+        <h2>Galería de Mariposas</h2>
+        <div class="gallery-item">
+            <img src="Mariposa 2.jpg" alt="Mariposa Monarca">
+            <p>Mariposa Monarca</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Alas de cristal.jpg" alt="Mariposa Alas de Cristal">
+            <p>Mariposa Alas de Cristal</p>
+        </div>
+        <div class="gallery-item">
+            <img src="morpho azul.jpg" alt="Mariposa morpho Azul">
+            <p>Mariposa morpho Azul</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Mariposa erebia de montaña.jpg" alt="Mariposa Erebia de Montaña">
+            <p>ariposa Erebia de Montaña</p>
+        </div>
+     
+    </section>
+
+    <section id="facts">
+        <button onclick="mostrarDatoCurioso()">Datos Curiosos</button >
+        <h1>Cuando llegamos a tocar las alas una mariposa, la mariposa tiene el riesgo de llegar a morir </h1>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
